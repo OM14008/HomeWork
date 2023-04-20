@@ -1,3 +1,5 @@
+package ClassHomeWork;
+
 public class HW2 {
     public static void main(String[] args) {
         String[][] grocery = { {"Banana","Chery","Strawberry",},
