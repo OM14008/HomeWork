@@ -39,14 +39,11 @@ public class JavaTask1 {
                 largest = numbers1[i];
             }
             for (int j = 0; j <= i; j++) {
-                if (numbers1[j] != largest) {
-                    if (numbers1[j] > secondLargest) {
-                        secondLargest = numbers1[j];
-                    }
+                if (numbers1[j] != largest && numbers1[j]>secondLargest) {
+                    secondLargest = numbers1[j];
                 }
             }
         }
-
         System.out.println("The largest " + largest);
         System.out.println("The secondLargest " + secondLargest);
 
