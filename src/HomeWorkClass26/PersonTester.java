@@ -5,6 +5,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class PersonTester {
+    private static int key;
+
     public static void main(String[] args) {
 
         Map<Integer, Person> map = new LinkedHashMap<>();
@@ -25,6 +27,7 @@ public class PersonTester {
             int key = entry.getKey();
             Person value= entry.getValue();
             System.out.println(key+" "+value);
+            
         }
     }
 }
