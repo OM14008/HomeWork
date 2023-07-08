@@ -2,7 +2,7 @@ package Practice;
 
 import java.util.LinkedList;
 
-public class Feb {
+public class FibonacciNumbers {
     public static void main(String[] args){
 
             LinkedList<Integer>list=new LinkedList<>();
