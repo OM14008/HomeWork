@@ -2,7 +2,7 @@ package CommonCodingTasks;
 
 public class FibonacciNumbers {
     public static void main(String[] args){
-        //fibonacci numbers
+        //Fibonacci numbers
         int a=0;
         int b=1;
         for(int i=0;i<10;i++) {
@@ -10,6 +10,7 @@ public class FibonacciNumbers {
             int sum = a + b;
             a = b;
             b = sum;
+
         }
     }
 }

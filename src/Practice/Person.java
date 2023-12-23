@@ -31,6 +31,7 @@ class Employee extends Person{
         System.out.print(" "+salary);
       }
     }
+
     class Main {
     public static void main(String[] args){
         Employee employee = new Employee("Joe","Smith",35,35000);
